@@ -1,0 +1,105 @@
+@media (max-width: 800px) {
+    .body{
+        background: url(fondo.png) no-repeat center center fixed;
+        background-size: cover;
+        background-color: #2c2c2c56;
+    }
+    .variedades{
+        margin: 5px;
+        grid-template-rows: 5rem 5rem 5rem 5rem 5rem 5rem 5rem;
+        justify-content: center;
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+    .box{
+        border-radius: 3px;
+        margin: 3px;
+        background-color: #2c2c2c;
+        box-shadow: 2px 2px 2px;
+    }
+    a{  
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: whitesmoke;
+        text-align: center;
+        font-size: 1.5rem;
+        text-decoration: none;
+        height: 100%;
+        width: 100%;
+    }
+    .logo{
+        max-width: 100vmin;
+    }
+    .cubiertos{
+        background-color: aliceblue;
+        color: rgb(98, 98, 98);
+        min-width: 100vmin;
+    }
+    .barra{
+        position: sticky;
+        top: 0;
+        background-color: #2c2c2c;
+        color: whitesmoke;
+    }
+    .contenedor{
+        display: grid;
+        grid-template-columns: 80% 20%;
+
+    }
+    .precio,.plato{
+        margin: 2px;
+        outline: 1px solid #ccc;
+        border-radius: 2px;
+        font-size: 1.3rem;
+        color: #4d4d4d;
+    }
+    .precio{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .desc{
+        font-size: 0.9rem;
+        color: #515151;
+    }
+    p{
+        margin: 0;
+    }
+    .principal{
+        margin-bottom: 25px;
+    }
+    h1{ 
+        margin: 2px;
+        background-color: rgb(255, 183, 16);
+        font-size: 1.2rem;
+        border-radius: 2px;
+        box-shadow: 2px 2px 2px #ccc;
+        color: whitesmoke;
+    }
+    h2{
+        margin: 2px;
+        background-color: #4d4d4d;
+        font-size: 1.2rem;
+        border-radius: 2px;
+        box-shadow: 2px 2px 2px #ccc;
+        color: whitesmoke;
+    }
+    h3{
+        margin: 2px;
+        background-color: #4e91fe;
+        font-size: 1.2rem;
+        border-radius: 2px;
+        box-shadow: 2px 2px 2px #ccc;
+        color: whitesmoke; 
+    }
+    h4{
+        margin: 2px;
+        background-color: #ed6d3b;
+        font-size: 1.2rem;
+        border-radius: 2px;
+        box-shadow: 2px 2px 2px #ccc;
+        color: whitesmoke; 
+    }
+
+}
