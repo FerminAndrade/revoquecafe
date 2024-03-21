@@ -1,12 +1,93 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Revoque Cafe</title>
 </head>
 <body>
-    <a href="carta.html"><h1>Carta Digital</h1></a>
+    <header class="header">
+        <div class="barra">
+            <a class="logo" href="index.html">RQ</a>
+        
+            <nav class="navegacion">
+               <a href="carta.html" class="link-nav carta">Carta</a>
+               <a href="contacto.html" class="link-nav contacto">Contacto</a>
+                <a href="nosotros.html" class="link-nav nosotros">Nosotros</a>
+            </nav>
+        </div>
+        <div class="titulo">
+            <h1 class="titulo-principal">REVOQUE</h1>
+            <h1 class="titulo-secundario">Cafe | Restaurante | Bar</h1>
+            <h2 class="titulo-secundario" >Bahia Blanca, Argentina</h2>
+        </div>
+    </header>
+    <div class="principal">
+        <div class="historia">
+            <h2 class="nosotros-titulo">Sobre Nosotros</h2>
+            <article class="nosotros-texto"><p>
+                En el corazón de Bahía Blanca, Argentina, se encuentra un 
+                rincón especial donde el aroma del café se entrelaza con la 
+                historia de una comunidad. Este lugar es Revoque Café, un 
+                establecimiento que desde su fundación en el año 2000 ha sido 
+                mucho más que un simple café. Es un refugio para los amantes 
+                del buen café, un punto de encuentro para amigos y familias, y 
+                un testigo de los desafíos y triunfos que han marcado la 
+                trayectoria del país a lo largo de los años.
+            </p></article>
+            <a class="boton-nosotros-mas" href="nosotros.html">Mas</a>
+        </div>
+        <div class="opiniones">
+            <h2 class="opiniones-titulo">Opiniones</h2>
+            <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
+            <div class="elfsight-app-69846ad0-7456-439c-a0de-9a68c3e32d4c" data-elfsight-app-lazy></div>
+        </div>
+        <div class="platos-populares">
+            <h2 class="titulo-platos">Nuestros platos mas populares</h2>
+            <section class="popular-dishes">
+                <div class="dishes-container">
+                  <div class="dish">
+                    <div class="dishimgcont"><img class="dishimg" src="assets/plato1.jpg" alt=""></div>
+                    <h3>Medallon de lomo</h3>
+                    <p>Medallon de lomo con diversas salsas y guarnicion</p>
+                  </div>
+                  <div class="dish">
+                    <div class="dishimgcont"><img class="dishimg" src="assets/plato2.jpg" alt=""></div>
+                    <h3>Lomo Iniesta</h3>
+                    <p>Sandwich de lomo con queso, tomate, huevo, cebolla camamelizada, morron y panceta</p>
+                  </div>
+                  <div class="dish">
+                    <div class="dishimgcont"><img class="dishimg" src="assets/plato3.jpg" alt=""></div>
+                    <h3>Pastora de Pollo</h3>
+                    <p>Pechuga rellena con jamon, queso y morron, apanada y con guarnicion de papas noisette</p>
+                  </div>
+                  <div class="dish">
+                    <div class="dishimgcont"><img class="dishimg" src="assets/plato4.jpg" alt=""></div>
+                    <h3>Ensalada Revoque</h3>
+                    <p>Ensalada de lechuga, pollo, ananá, queso y jamon crudo</p>
+                  </div>
+                  <div class="dish">
+                    <div class="dishimgcont"><img class="dishimg" src="assets/plato5.jpg" alt=""></div>
+                    <h3>Pizza 4 Quesos</h3>
+                    <p>Base de tomate, mozzarella, roquefort, reggianito, queso barra</p>
+                  </div>
+                </div>
+              </section>
+        </div>
+        <div class="div-contacto">
+            <h2 class="titulo-contacto">Contacto</h2>
+            <a class="boton-wp" href="https://wa.me/message/XOEYJF6TUBXRM1">Hablar ahora</a>
+            <a class="boton-contacto-mas" href="contacto.html">Mas</a>
+        </div>
+        <div class="mapa">
+            <h2 class="titulo-mapa">Mapa de nuestra ubicación</h2>
+            <p>Avenida Alem 54, Bahía Blanca, Buenos Aires, Argentina</p>
+            <div id="map">
+              <iframe class="map-map" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12452.620140501589!2d-62.2607582!3d-38.7142494!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95eda352ee30cafb%3A0x587f7e9648d9a158!2sRevoque%20Caf%C3%A9!5e0!3m2!1ses!2sar!4v1710766341449!5m2!1ses!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>            </div>
+        </div>
+    </div>
 </body>
 </html>

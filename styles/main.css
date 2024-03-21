@@ -71,7 +71,7 @@
     }
     h1{ 
         margin: 2px;
-        background-color: rgb(255, 183, 16);
+        background-color: #e7ad4f;
         font-size: 1.2rem;
         border-radius: 2px;
         box-shadow: 2px 2px 2px #ccc;
@@ -87,7 +87,7 @@
     }
     h3{
         margin: 2px;
-        background-color: #4e91fe;
+        background-color: #429ea8;
         font-size: 1.2rem;
         border-radius: 2px;
         box-shadow: 2px 2px 2px #ccc;
@@ -95,7 +95,7 @@
     }
     h4{
         margin: 2px;
-        background-color: #ed6d3b;
+        background-color: #C9633d;
         font-size: 1.2rem;
         border-radius: 2px;
         box-shadow: 2px 2px 2px #ccc;
